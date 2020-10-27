@@ -8,6 +8,6 @@ int main()
     const char str2[] = "baab";
     char x = 'a';
     char y = 'b';
-    cout << less(a, b) << endl << less(c, d) << endl << less(str, str2) << endl << less(x, y);
+    std::cout << less(a, b) << std::endl << less(c, d) << std::endl << less(str, str2) << std::endl << less(x, y);
     return 0;
 }
