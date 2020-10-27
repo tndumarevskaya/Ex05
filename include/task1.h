@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <cstring>
-using namespace std;
 
 template<typename T>
 bool less(T a, T b)
