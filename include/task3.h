@@ -10,8 +10,8 @@ T minArr(T (&arr)[size])
 	T min = arr[0];
 	for (auto now : arr)
 	{
-		if (min > arr[i])
-			min = arr[i];
+		if (min > now)
+			min = now;
 	}
 	return min;
 }
